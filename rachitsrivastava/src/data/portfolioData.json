@@ -1,0 +1,106 @@
+
+{
+  "personal": {
+    "name": "Rachit Srivastava",
+    "role": "Software Developer &  AI Engineer",
+    "headlineSuffix": "Crafting with",
+    "cyclingSkills": ["FastAPI", "React", "LangGraph"],
+    "resumeUrl": "https://drive.google.com/file/d/1nMN0It9ym7UfiZpWmvCJiay8v408EbuV/view?usp=sharing",
+    "email": "rachitsrivastava03042005@gmail.com",
+    "phone": "+91 7355257097",
+    "location": "Indore, India",
+    "socials": {
+      "github": "https://github.com/berachit",
+      "linkedin": "https://linkedin.com/in/berachit",
+      "leetcode": "https://leetcode.com/u/berachit"
+    }
+  },
+  "about": {
+    "greeting": "I'm Rachit Srivastava, a Software Developer focused on backend engineering, full-stack development, and building AI-powered applications.",
+    "intro": "I build full-stack applications and AI-powered solutions, working with backend systems, REST APIs, RAG pipelines, LLMs, and vector search.",
+    "education": "Currently pursuing a B.Tech in Electrical Engineering at Shri G.S. Institute of Science and Technology (SGSITS), Indore.",
+    "philosophy": "I enjoy exploring new technologies and turning ideas into practical products, combining strong engineering principles with the possibilities of AI.",
+    "techStack": [
+      {
+        "category": "LANGUAGES",
+        "items": ["Python", "Java", "JavaScript", "TypeScript", "C/C++", "SQL"]
+      },
+      {
+        "category": "FRAMEWORKS",
+        "items": ["React.js", "Node.js", "Express.js", "FastAPI", "Tailwind CSS"]
+      },
+      {
+        "category": "BACKEND & DATABASES",
+        "items": ["REST APIs", "Socket.IO", "PostgreSQL", "pgvector", "MongoDB", "Mongoose"]
+      },
+      {
+        "category": "AI / LLM",
+        "items": ["RAG", "LangGraph", "LLM Integration", "Gemini API", "Groq API", "Embeddings", "Vector Search", "Prompt Engineering"]
+      },
+      {
+        "category": "TOOLS & INFRA",
+        "items": ["Git", "GitHub", "Docker", "Postman", "pytest", "Vercel"]
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "id": "assemble",
+      "company": "Assemble",
+      "role": "Frontend Developer Intern",
+      "period": "Aug. 2025 – Jan. 2026",
+      "isCurrent": false,
+      "location": "Remote",
+      "points": [
+        "Built 10+ pages of an esports platform UI using React and JavaScript, implementing lazy loading to reduce initial bundle size; the platform supported 1,500+ user registrations.",
+        "Integrated REST APIs to display live tournament data and created responsive layouts using CSS Flexbox and Grid for mobile, tablet and desktop.",
+        "Created 15+ reusable components using React and Tailwind CSS; applied useMemo and useCallback to avoid unnecessary component re-renders."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "RuleLens",
+      "description": "Built a closed-domain Retrieval-Augmented Generation (RAG) application using FastAPI, PostgreSQL, pgvector and 384-dimensional BGE embeddings. Achieved 95.83% accuracy (46/48 queries) on a custom benchmark automated with pytest. Integrated Gemini and Groq APIs with evidence-sufficiency checks, citation validation, contradiction detection, deterministic fallbacks and an authenticated document management panel.",
+      "stack": ["React", "TypeScript", "FastAPI", "PostgreSQL", "pgvector", "Docker"],
+      "image": "/images/rulelens.png",
+      "github": "https://github.com/berachit/RuleLens",
+      "live": "https://rule-lens.vercel.app/"
+    },
+    {
+      "id": 2,
+      "name": "Chess Master",
+      "description": "Built a real-time multiplayer chess platform using Node.js, Express.js, and Socket.IO, featuring Elo rating calculations, skill-based matchmaking, server-side move validation, AI opponents and 60-second disconnection recovery. Used MongoDB compound and TTL indexes with atomic conditional updates to prevent race conditions. Includes 15+ RESTful APIs, paginated game history, JWT and Google OAuth authentication.",
+      "stack": ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "Socket.IO"],
+      "image": "/images/chessmaster.png",
+      "github": "https://github.com/berachit/chess_master",
+      "live": "https://chess-master-ten-virid.vercel.app/"
+    },
+    {
+      "id": 3,
+      "name": "ShopLix",
+      "description": "Full-stack e-commerce application with 15 RESTful APIs, Mongoose data models, referenced user-order relationships, embedded order snapshots and Mongoose Map-based cart management. Includes product filtering, sorting, pagination, JWT authentication, RBAC, Google OAuth 2.0, Cloudinary image uploads and Nodemailer order notifications.",
+      "stack": ["React", "Node.js", "Express.js", "MongoDB", "Mongoose", "Cloudinary", "Nodemailer"],
+      "image": "/images/shoplix.png",
+      "github": "https://github.com/berachit/ShopLix",
+      "live": "https://shoplix-six.vercel.app/"
+    }
+  ],
+  "positionsOfResponsibility": [
+    {
+      "id": "idea-lab",
+      "organization": "IDEA Lab, SGSITS",
+      "role": "Coordinator",
+      "period": "Aug. 2024 – Present",
+      "location": "Indore, India",
+      "points": [
+        "Coordinated 3 electronics workshops with 100+ participants each, managing venue planning, resources and on-ground logistics."
+      ]
+    }
+  ],
+  "contact": {
+    "subheading": "Have a project or opportunity in mind?",
+    "cta": "LET'S TALK"
+  }
+}
